@@ -46,11 +46,11 @@ module.exports = {
   AUTO_MSG_REACT: toBool(process.env.AUTO_MSG_REACT || 'false'),
 
   //AUTOMATION-FIX SOON 🎯
-  AUTO_STATUS_SAVER: toBool(process.env.AUTO_STATUS_SAVER || 'false'),
-  AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW || 'false'),
+  AUTO_STATUS_SAVER: toBool(process.env.AUTO_STATUS_SAVER || 'true'),
+  AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW || 'true'),
   AUTO_STATUS_REPLY: toBool(process.env.AUTO_STATUS_REPLY || 'false'),
   AUTO_STATUS_REPLY_MSG: process.env.AUTO_STATUS_REPLY_MSG || '_*Nice Status  🍀*_',
-  AUTO_STATUS_REACT: toBool(process.env.AUTO_STATUS_REACT || 'false'),
+  AUTO_STATUS_REACT: toBool(process.env.AUTO_STATUS_REACT || 'true'),
   AUTO_STATUS_REACT_EMOJIS: process.env.AUTO_STATUS_REACT_EMOJIS || ['💎','🤍','🍀','💀','📈','🎯','🫶','👀','☠️'],
 //_______________#OTHER(⚠️ Warning Dont Edit Anything Here)______________________________________________________________________________________
   BASE_URL: 'https://abhi-api.vercel.app/', // Don't Change This
